@@ -1,12 +1,12 @@
 # Firestore for Google Apps Scripts
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/grahamearley/FirestoreGoogleAppsScript)](../../../releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/abkarino/FirestoreGoogleAppsScript)](../../../releases/latest)
 [![Google Apps Script](https://img.shields.io/badge/google%20apps%20script-v8-%234285f4)](//developers.google.com/apps-script/guides/v8-runtime)
 [![TypeScript](https://img.shields.io/badge/typescript-3.9.5-%23294E80)](//typescriptlang.org/docs/handbook/release-notes/typescript-3-9.html)
 [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](//github.com/google/clasp)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](//github.com/prettier/prettier)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/grahamearley/FirestoreGoogleAppsScript)](../../../pulls)
-[![GitHub issues](https://img.shields.io/github/issues/grahamearley/FirestoreGoogleAppsScript)](../../../issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/abkarino/FirestoreGoogleAppsScript)](../../../pulls)
+[![GitHub issues](https://img.shields.io/github/issues/abkarino/FirestoreGoogleAppsScript)](../../../issues)
 [![Tests](https://img.shields.io/endpoint?url=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbzle3ze4mtGAcTNPlqISSFxtmPqvdcNOFauiC4Q0g%2Fexec)](//img.shields.io/endpoint?url=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbzle3ze4mtGAcTNPlqISSFxtmPqvdcNOFauiC4Q0g%2Fexec?nocache)
 
 ### A Google Apps Script library for accessing Google Cloud Firestore.
@@ -18,8 +18,21 @@ Read how this project was started [here](//grahamearley.website/blog/2017/10/18/
 
 As of **v27**, this project has been updated to use the [GAS V8 runtime](//developers.google.com/apps-script/guides/v8-runtime) with [Typescript](//www.typescriptlang.org/docs/handbook/release-notes/typescript-3-9.html)! This introduces a number of [breaking changes](#breaking-changes). Scripts utilizing the old Rhino runtime must use **v26**.
 
+## Fork details
+In this fork, I added `BatchWrite` functionality both `atomic` and `non-atomic` options. The original library id is `1VUSl4b1r1eoNcRWotZM3e87ygkxvXltOgyDZhixqncz9lQ3MjfT1iKFw`.
+
+Since this is a new deployment on GAS, the versioning is reset to `v1`.
+
+### Future work
+- update the documentation for the `BatchWrite` operations.
+- Add full transaction support
+
+### Changelog
+#### V1
+- Added WriteBatch functionality.
+
 ## Installation
-In the Google online script editor, select the `Resources` menu item and choose `Libraries...`. In the "Add a library" input box, enter **`1VUSl4b1r1eoNcRWotZM3e87ygkxvXltOgyDZhixqncz9lQ3MjfT1iKFw`** and click "Add." Choose the most recent version number.
+In the Google online script editor, select the `Resources` menu item and choose `Libraries...`. In the "Add a library" input box, enter **`1bdxX-1xBtYdDgROfBvJgKkAwRJTbgcTkFE99sVClnMQHQoBE2DLrYiH4`** and click "Add." Choose the most recent version number.
 
 ## Quick start
 #### Creating a service account
