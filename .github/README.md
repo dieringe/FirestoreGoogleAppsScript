@@ -30,6 +30,9 @@ Since this is a new deployment on GAS, the versioning is reset to `v1`.
 ### Changelog
 #### V1
 - Added WriteBatch functionality.
+#### V2
+- Added `isEmpty` getter to check if the `BatchWrite` has any mutations.
+- Converted private fields into TS 3.8 private fields
 
 ## Installation
 In the Google online script editor, select the `Resources` menu item and choose `Libraries...`. In the "Add a library" input box, enter **`1bdxX-1xBtYdDgROfBvJgKkAwRJTbgcTkFE99sVClnMQHQoBE2DLrYiH4`** and click "Add." Choose the most recent version number.
