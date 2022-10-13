@@ -140,6 +140,13 @@ class Firestore implements FirestoreRead, FirestoreWrite, FirestoreDelete {
   }
 
   /**
+   * Create a batch get
+   */
+  batchGet(): GetBatch {
+    return new GetBatch(this);
+  }
+
+  /**
    * Generates a new unique id
    * Useful for WriteBatch create document
    *
