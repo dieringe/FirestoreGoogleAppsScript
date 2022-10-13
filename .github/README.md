@@ -33,6 +33,8 @@ Since this is a new deployment on GAS, the versioning is reset to `v1`.
 #### V2
 - Added `isEmpty` getter to check if the `BatchWrite` has any mutations.
 - Converted private fields into TS 3.8 private fields
+#### V3
+- Added GetBatch functionality.
 
 ## Installation
 In the Google online script editor, select the `Resources` menu item and choose `Libraries...`. In the "Add a library" input box, enter **`1bdxX-1xBtYdDgROfBvJgKkAwRJTbgcTkFE99sVClnMQHQoBE2DLrYiH4`** and click "Add." Choose the most recent version number.
@@ -206,4 +208,4 @@ After cloning this repository, you can push it to your own private copy of this 
 Install all packages from `package.json` with a bare `npm install`.
  
 
-If you want to view the source code directly on Google Apps Script, where you can make a copy for yourself to edit, click [here](//script.google.com/d/1VUSl4b1r1eoNcRWotZM3e87ygkxvXltOgyDZhixqncz9lQ3MjfT1iKFw/edit). 
+If you want to view the source code directly on Google Apps Script, where you can make a copy for yourself to edit, click [here](//script.google.com/d/1bdxX-1xBtYdDgROfBvJgKkAwRJTbgcTkFE99sVClnMQHQoBE2DLrYiH4/edit). 
